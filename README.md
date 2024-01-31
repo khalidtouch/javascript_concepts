@@ -37,3 +37,8 @@ This repository showcases some core JavaScript concepts that developers should b
 
 
 # 1. Pure functions 
+
+# 22. this keyword 
+the `this` keyword is usually defined by a function's execution context. It is simply a reference to the closest parent object that encapsulates it. 
+
+In a browser console, executing `console.log(this)` returns the parent (global) window object. 
